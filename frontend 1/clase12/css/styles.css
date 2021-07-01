@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    width: 1024px;
+    color: blanchedalmond;
+}
+
+p {
+    height: 20px;
+}
+
+
+
+.container {
+    width: 1024px;
+    height: 62px;
+    background-color: orange;
+    border: solid blue 5px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+
+}
+
+.orange {
+    position: relative;
+    left: -89px;
+    top: 9px;
+    right: 100px;
+    bottom: 100px;
+    z-index: 10;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+main {
+    position: absolute;
+    width: 1019px;
+    height: 951px;
+    top: 81px;
+    border: solid rgb(119, 82, 82) 5px;
+
+}
+
+.plato {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1020px;
+    height: 409;
+    top: -1px;
+    position: relative;
+
+}
+
+h2 {
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    width: 318px;
+    height: 47px;
+    left: 648px;
+    top: 237px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000; 
+    background-color: seashell;
+}
+
+button {
+    position: absolute;
+    color: seashell;
+    background-color: orange;
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 334px;
+}
+.huella {
+    position: relative;
+    top: 0px;
+    bottom: 100px;
+    right: 100px;
+    left: 490px;
+    
+}
+
+h1 {
+    text-align: center;
+    position: absolute;
+    width: 406px;
+    height: 47px;
+    left: 309px;
+    top: 471px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px; 
+}
+
+.links li {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    left: 317px;
+    right: 100px;
+    top: 24px;
+}
+
