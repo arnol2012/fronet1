@@ -1,0 +1,234 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #D1891C;
+    width: 2056px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #5a3a3a;
+    
+}
+
+h1 {
+    background-color: #00669F;
+    padding: 38px;
+    width: 2056px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+
+}
+
+.heroes {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    height: 5264px;
+    width: 2056px;
+}
+
+.heroe {
+    height: 1427px;
+    width: 805px;
+    display: flex;
+}
+
+.desc {
+    position: absolute;
+    font-size: 36px;
+    background-color: #F3F3F3;
+    width: 833px;
+    height: 872px;
+    top: 546px;
+    left: -5px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 42px;
+    color: #33333;
+    box-sizing: border-box;
+    padding: 5%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.uno {
+    padding-top: 45%;
+
+}
+.dos {
+    position: absolute;
+    right: 0px;
+    left: 626px;
+    top: 2633px;
+    bottom: 100px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 42px;
+    padding: 1%;
+    padding-top: 9%;
+}
+
+.tres {
+    position: absolute;
+    right: 0px;
+    left: 626px;
+    top: 4385px;
+    bottom: 100px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 42px;
+    padding: 1%;
+    padding-top: 9%;
+}
+
+
+.batman {
+    position: relative;
+    top: 100px;
+    left: 0px;
+    right: 100px;
+    bottom: 100px;
+}
+
+.back {
+    position: absolute;
+    border-top-left-radius: 67px;
+    border-top-right-radius: 67px;
+    width: 806px;
+    height: 555px;
+    z-index: 10;
+}
+
+.perfil {
+    position: absolute;
+    justify-content: center;
+    border-radius: 100%;
+    width: 352px;
+    height: 352px;
+    z-index: 20;
+
+}
+
+.x {
+    right: 2px;
+    left: 198px;
+    top: 385px;
+    bottom: 2pxx    ;
+}
+
+.y {
+    right: 2px;
+    left: 871px;
+    top: 2454px;
+    bottom: 2pxx 
+}
+
+.z {
+    right: 2px;
+    left: 871px;
+    top: 4203px;
+    bottom: 2pxx 
+}
+
+.cora {
+    position: relative;
+    z-index: 15;
+    top: 46px;
+    left: 38px;
+    height: 58.62px;
+    width: 67px;
+}
+
+.nombre-heroe {
+    position: relative;
+    color: black;
+    z-index: 30;
+    font-size: 64px;
+    
+}
+
+.b {
+    text-align: center;
+    top: 811px;
+    bottom: 100px;
+    left: 215px;
+
+}
+
+.m {
+    text-align: center;
+    top: 740px;
+    bottom: 100px;
+    left: 132px;
+
+}
+
+.s {
+    text-align: center;
+    top: 796px;
+    bottom: 100px;
+    left: 174px;
+}
+
+
+p.desc {
+    width: 805px;
+}
+
+
+.vermas-uno {
+    position: relative;
+    z-index: 50;
+    height: 114px;
+    width: 346px;
+    left: -78px;
+    top: 1255px;
+    bottom: 1px;
+    background-color: #00669F;
+    font-size: 36px;
+}
+
+.vermas-dos {
+    position: relative;
+    z-index: 50;
+    height: 114px;
+    width: 346px;
+    left: -241px;
+    top: 1270px;
+    bottom: 1px;
+    background-color: #00669F;
+    font-size: 36px;
+
+}
+
+.vermas-tres {
+    position: relative;
+    z-index: 50;
+    height: 114px;
+    width: 346px;
+    left: -159px;
+    top: 1270px;
+    bottom: 1px;
+    background-color: #00669F;
+    font-size: 36px;
+
+}
+
+footer {
+    width: 2056px;
+    text-align: center;
+    background-color: #00669F;
+    font-size: 36px;
+    align-items: flex-end;
+}
+
